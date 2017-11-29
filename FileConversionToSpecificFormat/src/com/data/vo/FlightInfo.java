@@ -9,10 +9,10 @@ public class FlightInfo {
     private String flight_Status;
     private String dep_Loc;
     private String arr_Loc;
-    private Date validTill;
+    private String validTill;
     private String deptTime;
     private String ArrivalTime;
-    private Long distance;
+    private String distance;
 
     public String getFlight_Status() {
         return flight_Status;
@@ -30,7 +30,7 @@ public class FlightInfo {
         this.arr_Loc = arr_Loc;
     }
 
-    public void setValidTill(Date validTill) {
+    public void setValidTill(String validTill) {
         this.validTill = validTill;
     }
 
@@ -42,7 +42,7 @@ public class FlightInfo {
         ArrivalTime = arrivalTime;
     }
 
-    public void setDistasnce(Long distance) {
+    public void setDistasnce(String distance) {
         this.distance = distance;
     }
 
@@ -54,7 +54,7 @@ public class FlightInfo {
         return arr_Loc;
     }
 
-    public Date getValidTill() {
+    public String getValidTill() {
         return validTill;
     }
 
@@ -66,7 +66,7 @@ public class FlightInfo {
         return ArrivalTime;
     }
 
-    public Long getDistasnce() {
+    public String getDistasnce() {
         return distance;
     }
 
